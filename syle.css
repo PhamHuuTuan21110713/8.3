@@ -374,7 +374,7 @@ body {
 
 #body {
     position: relative;
-    height: 100vh;
+    height: 1000px;
     overflow: hidden;
 }
 
@@ -395,7 +395,7 @@ body {
 }
 
 .gallery {
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
