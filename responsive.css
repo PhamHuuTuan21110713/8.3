@@ -1,0 +1,78 @@
+@media (max-width: 1421px )  {
+    .content-text--name::after {
+        display: none;
+    }
+    .text-container {
+        position: absolute;
+        width: 300px;
+        /* height: 100px; */
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        left: 5%;
+        top: 10%;
+        backdrop-filter: blur(2px);
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        z-index: -1;
+        border-radius: 6px;
+        padding: 20px;
+        animation: loichucAnimate 1s ease-in-out 1s forwards;
+        transform: translateY(calc(-100% - 10px));
+        opacity: 0;
+        transition: all ease-in 1.2s 2s;
+    }
+    .content-text--container {
+        position: absolute;
+        top: 52%;
+        left: 10%;
+        transition: all ease-in 1.2s 2s;
+    }
+    .loichuc-header {
+        font-size: 40px;
+    }
+    .loichuc-content {
+        font-size: 15px;
+    }
+    .content-text--header {
+        font-size: 40px;
+    }
+    .content-text--name {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .circle-1 {
+        width: 400px;
+        height: 400px;
+        left: -10%;
+    }
+    .circle-2 {
+        position: absolute;
+        right: -10%;
+        
+    }
+    .img-main--container {
+        right: 25%;
+
+    }
+    .brush {
+        width: 500px;
+        height: 400px;
+        right: -2%;
+    }
+    .gif-catdance{
+        right: -20%px;
+    }
+    .letter-container {
+        right: 0;
+        width: 300px;
+        height: 200px;
+    }
+    .giaithich-container {
+        left: 10px;
+    }
+}
+@media (max-width: 1069px) {
+    .content-text--container {
+        left: 10px;
+    }
+}
